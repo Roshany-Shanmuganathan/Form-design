@@ -4,58 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="form">
+    <div class="form-container">
       <form>
         <h2>Assignment submission</h2>
-        <label for="name">Full Name:</label><br /><br />
+        <label for="name">Full Name:</label>
         <input
           class="input"
           type="text"
           name=""
           id=""
           placeholder="E.g.John Doe"
-        /><br /><br />
-        <label for="mail">Email Address:</label><br /><br />
+        />
+        <label for="mail">Email Address:</label>
         <input
           class="input"
           type="tel"
           name=""
           id=""
           placeholder="E.g.john@examble.com"
-        /><br /><br />
-        <label for="number">Phone Number:</label><br /><br />
+        /><br />
+        <label for="number">Phone Number:</label>
         <input
           class="input"
           type="textbox"
           name="number"
           id=""
           placeholder="E.g.+1 234 567 8901"
-        /><br /><br />
-        <label for="Gender">Gender:</label><br /><br />
-        <input type="radio" name="gender" id="male" />Male
-        <input type="radio" name="gender" id="female" />Female
-        <input type="radio" name="gender" id="other" />other<br /><br />
-        <label for="select">Select Course:</label><br /><br />
+        /><br />
+        <label for="Gender">Gender:</label>
+        <input type="radio" class="radio-btn" name="gender" id="male" />Male
+        <input type="radio" class="radio-btn" name="gender" id="female" />Female
+        <input type="radio" class="radio-btn"  name="gender" id="other" />other
+        <label for="select">Select Course:</label>
         <select class="select">
           <option value="--choose--">--choose--</option>
           <option value="Web Development">Full Stack Web Development</option>
-          <option value="Phython">Phython</option></select
-        ><br /><br />
-        <label for="file">Upload Assignment:</label><br /><br />
-        <button>Choose file</button> No file chosen<br /><br />
-        <label for="text">Comments / Notes:</label><br /><br />
+          <option value="Phython">Phython</option>
+        </select>
+
+        <label for="file">Upload Assignment:</label>
+        <button class="btn">Choose file</button> No file chosen
+        <label for="text">Comments / Notes:</label>
         <textarea
           style="font-size: small"
           placeholder="Write something if needed..."
           rows="4"
-          cols="25"
-        ></textarea
-        ><br /><br />
-        <input type="checkbox" name="" id="" />I agree to the submission
-        terms<br /><br />
+          cols="55"
+        ></textarea><br>
+        <input type="checkbox" name="" id="" />I agree to the submission terms
         <div class="submit">
           <button class="button">Submit Assignment</button>
         </div>
